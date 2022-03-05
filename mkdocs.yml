@@ -1,0 +1,25 @@
+site_name: Главная страница
+
+plugins:
+  - i18n:
+      default_language: ru
+      languages:
+        ru:
+          name: Russia
+          site_name: Главная страница
+        en:
+          name: English
+          site_name: Main
+
+theme:
+    name: material
+    
+extra:
+  alternate:
+    - name: Russian
+      link: docs/ru/
+      lang: ru
+    - name: English
+      link: docs/en/
+      lang: en 
+
